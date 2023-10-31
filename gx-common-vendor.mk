@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/amlogic/gx-common/proprietary/lib/vendor.amlogic.hardware.droidvold@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.amlogic.hardware.droidvold@1.0.so \
     vendor/amlogic/gx-common/proprietary/product/lib/libamavutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libamavutils.so \
+    vendor/amlogic/gx-common/proprietary/recovery/root/system/bin/systemcontrol_static:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/systemcontrol_static \
     vendor/amlogic/gx-common/proprietary/vendor/bin/hdmicecd:$(TARGET_COPY_OUT_VENDOR)/bin/hdmicecd \
     vendor/amlogic/gx-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/amlogic/gx-common/proprietary/vendor/bin/systemcontrol:$(TARGET_COPY_OUT_VENDOR)/bin/systemcontrol \
