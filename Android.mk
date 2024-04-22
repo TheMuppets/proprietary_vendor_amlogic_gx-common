@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gxm gxl,$(TARGET_AMLOGIC_SOC)),)
+ifneq ($(filter gxm gxl g12b,$(TARGET_AMLOGIC_SOC)),)
 
 endif
