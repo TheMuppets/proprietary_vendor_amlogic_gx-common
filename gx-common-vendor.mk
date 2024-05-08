@@ -65,6 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/gx-common/proprietary/vendor/lib/libomx_framework_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_framework_alt.so \
     vendor/amlogic/gx-common/proprietary/vendor/lib/libomx_timed_task_queue_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_timed_task_queue_alt.so \
     vendor/amlogic/gx-common/proprietary/vendor/lib/libomx_worker_peer_alt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_worker_peer_alt.so \
+    vendor/amlogic/gx-common/proprietary/vendor/lib/liboptimization.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptimization.so \
     vendor/amlogic/gx-common/proprietary/vendor/lib/libpqcontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqcontrol.so \
     vendor/amlogic/gx-common/proprietary/vendor/lib/libremotecontrol_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremotecontrol_jni.so \
     vendor/amlogic/gx-common/proprietary/vendor/lib/libremotecontrolserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremotecontrolserver.so \
