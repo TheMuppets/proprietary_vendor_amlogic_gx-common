@@ -11,9 +11,11 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/gx-common/proprietary/recovery/root/system/bin/systemcontrol_static:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/systemcontrol_static \
     vendor/amlogic/gx-common/proprietary/vendor/bin/hdmicecd:$(TARGET_COPY_OUT_VENDOR)/bin/hdmicecd \
     vendor/amlogic/gx-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/amlogic/gx-common/proprietary/vendor/bin/hw/android.hardware.dumpstate@1.0-service.droidlogic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.dumpstate@1.0-service.droidlogic \
     vendor/amlogic/gx-common/proprietary/vendor/bin/systemcontrol:$(TARGET_COPY_OUT_VENDOR)/bin/systemcontrol \
     vendor/amlogic/gx-common/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
     vendor/amlogic/gx-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/amlogic/gx-common/proprietary/vendor/etc/init/android.hardware.dumpstate@1.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.0-service.droidlogic.rc \
     vendor/amlogic/gx-common/proprietary/vendor/etc/init/hdmicecd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hdmicecd.rc \
     vendor/amlogic/gx-common/proprietary/vendor/etc/init/init.hbg.remote.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.hbg.remote.rc \
     vendor/amlogic/gx-common/proprietary/vendor/etc/init/systemcontrol.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/systemcontrol.rc \
