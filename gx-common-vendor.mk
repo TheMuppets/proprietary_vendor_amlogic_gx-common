@@ -26,8 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/gx-common/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/amlogic/gx-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/amlogic/gx-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/amlogic/gx-common/proprietary/vendor/lib/firmware/video/h264_enc.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/video/h264_enc.bin \
-    vendor/amlogic/gx-common/proprietary/vendor/lib/firmware/video/video_ucode.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/video/video_ucode.bin \
     vendor/amlogic/gx-common/proprietary/vendor/lib/hw/audio.primary.amlogic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.amlogic.so \
     vendor/amlogic/gx-common/proprietary/vendor/lib/hw/camera.amlogic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.amlogic.so \
     vendor/amlogic/gx-common/proprietary/vendor/lib/hw/gatekeeper.amlogic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.amlogic.so \
