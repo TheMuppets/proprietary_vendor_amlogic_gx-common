@@ -45,6 +45,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-resources-vendor \
     android.hardware.graphics.composer@2.2-resources-vendor \
     arm.graphics-V1-ndk_platform \
+    libGLES_mali \
     android.hardware.bluetooth@1.0-impl-droidlogic \
     android.hardware.graphics.allocator@4.0-impl-arm \
     android.hardware.graphics.mapper@4.0-impl-arm \
@@ -139,3 +140,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb.gadget@1.2-service.droidlogic \
     remotecfg \
     systemcontrol
+
+PRODUCT_PACKAGES += \
+    vendor_lib_hw_vulkan_amlogic_so
